@@ -235,7 +235,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(agr3.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: auto;
@@ -509,7 +509,7 @@ button {
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/service-bg.png);
+    background-image: url(agr3.png);
     height: auto;
     background-size: 100%;
     padding-bottom: 100px;
@@ -595,7 +595,7 @@ button {
 .about_section {
     width: 100%;
     float: center;
-    background-image: url(../images/agr3.jpg);
+    background-image: url(agr3.png);
     height: auto;
     background-size: 100;
     padding: 100px 100px;
