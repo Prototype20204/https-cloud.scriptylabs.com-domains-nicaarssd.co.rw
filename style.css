@@ -48,7 +48,7 @@ body {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
-    background-image: url(../images/body-bg.png);
+    background-image: url(body-bg.png);
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,7 +235,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(banner-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: auto;
@@ -509,7 +509,7 @@ button {
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/service-bg.png);
+    background-image: url(service-bg.png);
     height: auto;
     background-size: 100%;
     padding-bottom: 100px;
@@ -595,7 +595,7 @@ button {
 .about_section {
     width: 100%;
     float: center;
-    background-image: url(../images/agr3.jpg);
+    background-image: url(agr3.jpg);
     height: auto;
     background-size: 100;
     padding: 100px 100px;
@@ -740,14 +740,14 @@ button {
 }
 
 .client_section.layout_padding .owl-carousel .owl-nav button.owl-next {
-    background-image: url(../images/right-arrow1.png);
+    background-image: url(right-arrow1.png);
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .client_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
-    background-image: url(../images/left-arrow1.png);
+    background-image: url(left-arrow1.png);
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: center;
@@ -755,13 +755,13 @@ button {
 
 .client_section.layout_padding .owl-carousel .owl-nav button.owl-next:hover {
     background-size: 12px;
-    background-image: url(../images/right-arrow.png);
+    background-image: url(right-arrow.png);
     background-color: #85a900;
 }
 
 .client_section.layout_padding .owl-carousel .owl-nav button.owl-prev:hover {
     background-size: 12px;
-    background-image: url(../images/left-arrow.png);
+    background-image: url(left-arrow.png);
     background-color: #85a900;
 }
 
@@ -887,7 +887,7 @@ textarea#comment.massage-bt::placeholder {
 .blog_section_2 {
     width: 100%;
     float: left;
-    background-image: url(../images/blog-img.png);
+    background-image: url(blog-img.png);
     height: auto;
     background-size: 100%;
     padding: 0px 0px 0px 0px;
