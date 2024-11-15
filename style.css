@@ -595,7 +595,7 @@ button {
 .about_section {
     width: 100%;
     float: center;
-    background-image: url(agr3.png);
+    background-image: url("agr3.png");
     height: auto;
     background-size: 100;
     padding: 100px 100px;
@@ -740,7 +740,7 @@ button {
 }
 
 .client_section.layout_padding .owl-carousel .owl-nav button.owl-next {
-    background-image: url(../images/right-arrow1.png);
+    background-image: url("right-arrow1.png");
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: center;
