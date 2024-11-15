@@ -235,7 +235,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(agr3.png);
+    background-image:  "agr3.png";
     background-size: 100%;
     background-repeat: no-repeat;
     height: auto;
