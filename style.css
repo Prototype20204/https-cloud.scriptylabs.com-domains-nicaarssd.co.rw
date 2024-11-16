@@ -19,17 +19,17 @@
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
-@import url(animate.min);
-@import url(normalize);
-@import url(icomoon);
-@import url(font-awesome.min);
-@import url(meanmenu);
-@import url(owl.carousel.min);
-@import url(swiper.min);
-@import url(slick);
-@import url(jquery.fancybox.min);
-@import url(jquery-ui);
-@import url(nice-select);
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -235,7 +235,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url (banner-bg.png);
+    background-image: url(../images/banner-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: auto;
@@ -503,62 +503,6 @@ button {
 
 /* year section end */
 
-/* about section start */
-
-.about_section {
-    width: 100%;
-    float: center;
-    background-image: url(agr3.jpg);
-    height: auto;
-    background-size: 100;
-    padding: 100px 100px;
-}
-
-.about_taital {
-    width: 100%;
-    float: center;
-    font-size: 28px;
-    color: #050501;
-    font-weight: bold;
-    padding-top: 30px;
-}
-
-.about_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #050500;
-    margin-left: 5px;
-}
-
-.read_bt_1 {
-    width: 180px;
-    float: left;
-    margin-top: 20px;
-}
-
-.read_bt_1 a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    text-align: center;
-    background-color: #85a900;
-    color: #fefefd;
-    padding: 10px 0px;
-}
-
-.read_bt_1 a:hover {
-    background-color: #fefefd;
-    color: #252525;
-}
-
-.about_img {
-    width: 100%;
-    display: none;
-}
-
-
-/* about section end */
 
 /* objectives section start */
 
@@ -646,14 +590,72 @@ button {
 /* objectives section end */
 
 
-/* projects section start */
+/* about section start */
 
-.projects_section {
+.about_section {
+    width: 100%;
+    float: center;
+    background-image: url(agr3.jpg);
+    height: auto;
+    background-size: 100;
+    padding: 100px 100px;
+}
+
+.about_taital {
+    width: 100%;
+    float: center;
+    font-size: 28px;
+    color: #050501;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #050500;
+    margin-left: 5px;
+}
+
+.read_bt_1 {
+    width: 180px;
+    float: left;
+    margin-top: 20px;
+}
+
+.read_bt_1 a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    background-color: #85a900;
+    color: #fefefd;
+    padding: 10px 0px;
+}
+
+.read_bt_1 a:hover {
+    background-color: #fefefd;
+    color: #252525;
+}
+
+.about_img {
+    width: 100%;
+    display: none;
+}
+
+
+/* about section end */
+
+
+/* our team section start */
+
+.our team_section {
     width: 100%;
     float: left;
 }
 
-.projects_taital {
+.our team_taital {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -662,14 +664,14 @@ button {
     text-align: center;
 }
 
-.projects_section_2 {
+.our team_section_2 {
     width: 100%;
     float: left;
     height: auto;
     background-size: 100%;
     padding-top: 30px;
 }
-.projects_section_3 {
+.our team_section_3 {
     width: 100%;
     float: left;
     height: auto;
@@ -677,11 +679,11 @@ button {
     padding-top: 30px;
 }
 
-.projects_section .item img {
+.our team_section .item img {
     transform: scale(.7);
 }
 
-.projects_section .owl-item.active.center img {
+.our team_section .owl-item.active.center img {
     transform: scale(1);
     padding-bottom: 30px;
 }
@@ -690,7 +692,7 @@ button {
     top: -15px;
 }
 
-.projects_box {
+.our team_box {
     width: 100%;
     background-color: #85a900;
     height: auto;
@@ -717,15 +719,15 @@ button {
     padding-top: 20px;
 }
 
-.projects_img {
+.our team_img {
     width: 50%;
     margin: 0 auto;
     position: relative;
     top: -70px;
 }
 
-.projects_section.layout_padding .owl-carousel .owl-nav button.owl-next,
-.projects_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
+.our team_section.layout_padding .owl-carousel .owl-nav button.owl-next,
+.our team_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
     background-color: #ffffff;
     margin: 0px 0px;
     width: 55px;
@@ -737,29 +739,29 @@ button {
     display: none;
 }
 
-.projects_section.layout_padding .owl-carousel .owl-nav button.owl-next {
-    background-image: url(right-arrow1.png);
+.our team_section.layout_padding .owl-carousel .owl-nav button.owl-next {
+    background-image: url(../images/right-arrow1.png);
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.projects_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
-    background-image: url(left-arrow1.png);
+.our team_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
+    background-image: url(../images/left-arrow1.png);
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.projects_section.layout_padding .owl-carousel .owl-nav button.owl-next:hover {
+.our team_section.layout_padding .owl-carousel .owl-nav button.owl-next:hover {
     background-size: 12px;
-    background-image: url(right-arrow.png);
+    background-image: url(../images/right-arrow.png);
     background-color: #85a900;
 }
 
-.projects_section.layout_padding .owl-carousel .owl-nav button.owl-prev:hover {
+.our team_section.layout_padding .owl-carousel .owl-nav button.owl-prev:hover {
     background-size: 12px;
-    background-image: url(left-arrow.png);
+    background-image: url(../images/left-arrow.png);
     background-color: #85a900;
 }
 
@@ -774,7 +776,7 @@ button {
 }
 
 
-/* projects section end */
+/* our team section end */
 
 
 /* contact section start */
@@ -864,15 +866,15 @@ textarea#comment.massage-bt::placeholder {
 /* contact section end */
 
 
-/* our team section start */
+/* blog section start */
 
-.our team_section {
+.blog_section {
     width: 100%;
     float: left;
     padding: 90px 0px;
 }
 
-.our team_taital {
+.blog_taital {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -882,10 +884,10 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
 }
 
-.our team_section_2 {
+.blog_section_2 {
     width: 100%;
     float: left;
-    background-image: url(blog-img.png);
+    background-image: url(../images/blog-img.png);
     height: auto;
     background-size: 100%;
     padding: 0px 0px 0px 0px;
