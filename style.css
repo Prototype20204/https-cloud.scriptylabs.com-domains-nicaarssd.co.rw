@@ -646,14 +646,14 @@ button {
 /* objectives section end */
 
 
-/* comparative advantages section start */
+/* projects section start */
 
-.comparative advantages_section {
+.projects_section {
     width: 100%;
     float: left;
 }
 
-.comparative advantages_taital {
+.projects_taital {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -662,14 +662,14 @@ button {
     text-align: center;
 }
 
-.comparative advantages_section_2 {
+.projects_section_2 {
     width: 100%;
     float: left;
     height: auto;
     background-size: 100%;
     padding-top: 30px;
 }
-.comparative advantages_section_3 {
+.projects_section_3 {
     width: 100%;
     float: left;
     height: auto;
@@ -677,11 +677,11 @@ button {
     padding-top: 30px;
 }
 
-.comparative advantages_section .item img {
+.projects_section .item img {
     transform: scale(.7);
 }
 
-.comparative advantages_section .owl-item.active.center img {
+.projects_section .owl-item.active.center img {
     transform: scale(1);
     padding-bottom: 30px;
 }
@@ -690,7 +690,7 @@ button {
     top: -15px;
 }
 
-.comparative advantages_box {
+.projects_box {
     width: 100%;
     background-color: #85a900;
     height: auto;
@@ -717,15 +717,15 @@ button {
     padding-top: 20px;
 }
 
-.comparative advantages_img {
+.projects_img {
     width: 50%;
     margin: 0 auto;
     position: relative;
     top: -70px;
 }
 
-.comparative advantages_section.layout_padding .owl-carousel .owl-nav button.owl-next,
-.comparative advantages_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
+.projects_section.layout_padding .owl-carousel .owl-nav button.owl-next,
+.projects_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
     background-color: #ffffff;
     margin: 0px 0px;
     width: 55px;
@@ -737,27 +737,27 @@ button {
     display: none;
 }
 
-.comparative advantages_section.layout_padding .owl-carousel .owl-nav button.owl-next {
+.projects_section.layout_padding .owl-carousel .owl-nav button.owl-next {
     background-image: url(right-arrow1.png);
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.comparative advantages_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
+.projects_section.layout_padding .owl-carousel .owl-nav button.owl-prev {
     background-image: url(left-arrow1.png);
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.comparative advantages_section.layout_padding .owl-carousel .owl-nav button.owl-next:hover {
+.projects_section.layout_padding .owl-carousel .owl-nav button.owl-next:hover {
     background-size: 12px;
     background-image: url(right-arrow.png);
     background-color: #85a900;
 }
 
-.comparative advantages_section.layout_padding .owl-carousel .owl-nav button.owl-prev:hover {
+.projects_section.layout_padding .owl-carousel .owl-nav button.owl-prev:hover {
     background-size: 12px;
     background-image: url(left-arrow.png);
     background-color: #85a900;
@@ -774,7 +774,7 @@ button {
 }
 
 
-/* comparative advantages section end */
+/* projects section end */
 
 
 /* contact section start */
@@ -937,7 +937,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 
-/* our team section end */
+/* blog section end */
 
 
 /* footer section start */
